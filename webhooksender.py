@@ -8,6 +8,9 @@ if URL == 'null':
     URL = input('Your webhook: ')
     webhook = Webhook.from_url(URL, adapter = RequestsWebhookAdapter())
     print('Webhook is now set!')
+else:
+    webhook = Webhook.from_url(URL, adapter = RequestsWebhookAdapter())
+    print('Webhook is set!')
 time.sleep(1)
 os.system('clear')
 print('===Webhook messager===')
