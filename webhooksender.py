@@ -2,7 +2,7 @@ from discord import Webhook, RequestsWebhookAdapter
 import os
 import time
 URL = "null"
-os.system('clear')
+os.system("cls || clear")
 if URL == 'null':
     print('WARNING!!! NO WEBHOOK SET!!!')
     URL = input('Your webhook: ')
@@ -12,7 +12,7 @@ else:
     webhook = Webhook.from_url(URL, adapter = RequestsWebhookAdapter())
     print('Webhook is set!')
 time.sleep(1)
-os.system('clear')
+os.system("cls || clear")
 print('===Webhook messager===')
 print('type !help for commands')
 print('======================')
