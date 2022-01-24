@@ -1,4 +1,5 @@
 # Webhook-Message-Sender
 Discord Webhook Message Sender written in Python.
 
-If you're using windows, change "os.system('clear')" to "os.system('cls')
+Coded by Eniuu ☾⁵☽#5121
+Support server: https://discord.gg/JVvmzdWYvF
